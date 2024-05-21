@@ -48,19 +48,4 @@ for size in sizes:
 print("Images have been resized and saved successfully.")
 
 
-##Explanation
-
-- **Image.open('your_image.png')**: Opens the existing image. Replace 'your_image.png' with the path to your image file.
-- **sizes**: A list of tuples specifying the desired sizes (120x120, 48x48, 16x16).
-- **image.resize(size, Image.LANCZOS)**: Resizes the image using the LANCZOS filter for high-quality downsampling.
-- **resized_image.save(f'resized_image_{size[0]}x{size[1]}.png')**: Saves the resized image with a new filename that includes the size.
-
-## Output
-
-The script will create three resized images in the same directory:
-
-- `resized_image_120x120.png`
-- `resized_image_48x48.png`
-- `resized_image_16x16.png`
-
 
